@@ -7,6 +7,9 @@
 // export default App;
 
 import React from 'react';
+import Airlines from './Airlines/Airlines';
+import Airline from './Airline/Airline';
+
 import {
     Switch,
     Route,

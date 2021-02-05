@@ -10,7 +10,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
 } from "react-router-dom";
 
 
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
     <Router>
       <Route path="/" component={App} />
-    </Router>
+    </Router>,
     document.body.appendChild(document.createElement('div')),
   )
 })
