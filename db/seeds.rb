@@ -4,12 +4,12 @@
 airlines = Airline.create([
     {
         name: "United Airlines",
-        image_url: 'https://open-flights.s3.amazonaws.com/United-Airelines.png'
+        image_url: "https://open-flights.s3.amazonaws.com/United-Airlines.png"
     },
     {
         name: "Southwest",
         image_url: "https://open-flights.s3.amazonaws.com/Southwest-Airlines.png"
-    },
+    }, 
     {
         name: "Delta",
         image_url: "https://open-flights.s3.amazonaws.com/Delta.png"
@@ -42,3 +42,8 @@ reviews = Review.create([
         airline: airlines.first 
     }
 ])
+
+# airlines = Airline_find_or_initialize_by(name: "United Airlines")
+# airlines.name = "United Airlines"
+# airlines.image_url = "https://open-flights.s3.amazonaws.com/United-Airlines.png"
+# airlines.save!
