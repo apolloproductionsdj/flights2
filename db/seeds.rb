@@ -43,7 +43,3 @@ reviews = Review.create([
     }
 ])
 
-# airlines = Airline_find_or_initialize_by(name: "United Airlines")
-# airlines.name = "United Airlines"
-# airlines.image_url = "https://open-flights.s3.amazonaws.com/United-Airlines.png"
-# airlines.save!
